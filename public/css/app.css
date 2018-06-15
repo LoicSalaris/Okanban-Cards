@@ -1,0 +1,46 @@
+#lists {
+    align-items: flex-start;
+}
+.list {
+    width: 200px;
+    margin: 0.4em;
+    background-color: #ccc;
+}
+.list h3 {
+  margin: 0em;
+  padding: 10px;
+  font-weight: bold;
+  font-size: 1em;
+}
+#list-add {
+    margin: 0.4rem;
+    font-size: 1.7em;
+}
+.list h3 i {
+    margin-left: 0.4em;
+}
+.list .form-edit {
+    display: none;
+}
+.list .form-edit .name {
+    width: 70%;
+}
+.card {
+    margin: 0.5rem;
+    padding: 0.5rem;
+    background: #ffff70;
+    border-radius: 0;
+    border: 0;
+    box-shadow: 0 0 2px 2px #999;
+}
+.card-placeholder {
+    margin: 0.5rem;
+    padding: 0.5rem;
+    background: #999999;
+    height: 40px;
+}
+.card-delete {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
